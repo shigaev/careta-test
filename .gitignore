@@ -1,5 +1,5 @@
 /*.idea/
 node_modules/
 .vscode/
-assets/build/
+# assets/build/
 package-lock.json
