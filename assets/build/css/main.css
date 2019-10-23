@@ -7566,7 +7566,7 @@ header {
   list-style: none;
   text-align: center; }
 
-.effect-jazz img {
+.services-item__block img {
   width: 100%;
   height: auto; }
 
@@ -7629,23 +7629,23 @@ header {
 .services-item figure p {
   letter-spacing: 1px; }
 
-figure.effect-jazz {
+figure.services-item__block {
   background: linear-gradient(-45deg, #f3cf3f 0%, #f33f58 100%); }
 
-figure.effect-jazz img {
+figure.services-item__block img {
   opacity: 0.9;
   width: 100%;
   height: auto; }
 
-figure.effect-jazz figcaption::after,
-figure.effect-jazz img,
-figure.effect-jazz p {
+figure.services-item__block figcaption::after,
+figure.services-item__block img,
+figure.services-item__block p {
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
   transition: opacity 0.35s, transform 0.35s, -webkit-transform 0.35s; }
 
-figure.effect-jazz figcaption::after {
+figure.services-item__block figcaption::after {
   position: absolute;
   top: 0;
   left: 0;
@@ -7660,37 +7660,37 @@ figure.effect-jazz figcaption::after {
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%; }
 
-figure.effect-jazz h2,
-figure.effect-jazz p {
+figure.services-item__block h2,
+figure.services-item__block p {
   opacity: 1;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1); }
 
-figure.effect-jazz h2 {
+figure.services-item__block h2 {
   padding-top: 26%;
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
   transition: transform 0.35s, -webkit-transform 0.35s; }
 
-figure.effect-jazz p {
+figure.services-item__block p {
   padding: 0.5em 2em;
   text-transform: none;
   font-size: 0.85em;
   opacity: 0; }
 
-figure.effect-jazz:hover img {
+figure.services-item__block:hover img {
   opacity: 0.7;
   -webkit-transform: scale3d(1.05, 1.05, 1);
   transform: scale3d(1.05, 1.05, 1); }
 
-figure.effect-jazz:hover figcaption::after {
+figure.services-item__block:hover figcaption::after {
   opacity: 1;
   -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
   transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1); }
 
-figure.effect-jazz:hover h2,
-figure.effect-jazz:hover p {
+figure.services-item__block:hover h2,
+figure.services-item__block:hover p {
   opacity: 1;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1); }
@@ -7700,3 +7700,7 @@ footer {
 
 .copyright {
   color: white; }
+
+body {
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/real-carbon-fibre.png"); }
