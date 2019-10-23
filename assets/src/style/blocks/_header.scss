@@ -12,11 +12,11 @@ header {
         display: block;
         font-size: 1.2em;
         font-weight: 600;
-        // color: $white;
+        color: $white;
     }
     .top-header__worktime_hours {
         font-size: 1em;
-        // color: $white;
+        color: $white;
     }
     .top-header__services {
         text-align: center;
@@ -25,11 +25,11 @@ header {
         display: block;
         font-size: 1.2em;
         font-weight: 600;
-        // color: $white;
+        color: $white;
     }
     .top-header__services__phone {
         font-size: 1.2em;
-        // color: $white;
+        color: $white;
     }
     .top-header__color {
         color: $red;
@@ -38,8 +38,8 @@ header {
 
 .header-menu {
     .nav-link {
-        // color: $white;
-        color: $black;
+        color: $white;
+        // color: $black;
         font-size: 1.1em;
     }
     .nav-link:hover {

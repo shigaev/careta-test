@@ -7531,22 +7531,26 @@ header {
   header .top-header__worktime_headline {
     display: block;
     font-size: 1.2em;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #fff; }
   header .top-header__worktime_hours {
-    font-size: 1em; }
+    font-size: 1em;
+    color: #fff; }
   header .top-header__services {
     text-align: center; }
   header .top-header__services__headline {
     display: block;
     font-size: 1.2em;
-    font-weight: 600; }
+    font-weight: 600;
+    color: #fff; }
   header .top-header__services__phone {
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    color: #fff; }
   header .top-header__color {
     color: red; }
 
 .header-menu .nav-link {
-  color: #000;
+  color: #fff;
   font-size: 1.1em; }
 
 .header-menu .nav-link:hover {
@@ -7695,8 +7699,8 @@ figure.services-item__block:hover p {
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1); }
 
-footer {
-  background-color: dimgrey; }
+.hr {
+  border-bottom: 1px solid #ffffff30; }
 
 .copyright {
   color: white; }
