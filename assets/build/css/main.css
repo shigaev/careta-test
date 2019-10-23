@@ -7523,22 +7523,22 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 header {
-  font-family: 'Proxima Nova Bold', sans-serif; }
+  font-family: "Proxima Nova Bold", sans-serif; }
   header .top-header {
     margin-top: 20px; }
   header .top-header__worktime {
     text-align: center; }
   header .top-header__worktime_headline {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600; }
   header .top-header__worktime_hours {
-    font-size: 1.2em; }
+    font-size: 1em; }
   header .top-header__services {
     text-align: center; }
   header .top-header__services__headline {
     display: block;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600; }
   header .top-header__services__phone {
     font-size: 1.2em; }
@@ -7547,10 +7547,14 @@ header {
 
 .header-menu .nav-link {
   color: #000;
-  font-size: 1.2em; }
+  font-size: 1.1em; }
 
 .header-menu .nav-link:hover {
   color: #495057; }
 
 .header-menu .adress {
-  font-size: 1.2em; }
+  font-size: 1.1em;
+  padding-right: 70px; }
+
+body {
+  background-color: black; }

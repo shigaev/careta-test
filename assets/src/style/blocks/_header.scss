@@ -1,46 +1,51 @@
 header {
-    // font-family: 'Proxima Nova Regular', sans-serif;
-    // font-family: 'Proxima Nova Semibold', sans-serif;
-    font-family: 'Proxima Nova Bold', sans-serif;
-    .top-header {
-        margin-top: 20px;
-    }
-    .top-header__worktime {
-        text-align: center;
-    }
-    .top-header__worktime_headline {
-        display: block;
-        font-size: 1.5em;
-        font-weight: 600;
-    }
-    .top-header__worktime_hours {
-        font-size: 1.2em;
-    }
-    .top-header__services {
-        text-align: center;
-    }
-    .top-header__services__headline {
-        display: block;
-        font-size: 1.5em;
-        font-weight: 600;
-    }
-    .top-header__services__phone {
-        font-size: 1.2em;
-    }
-    .top-header__color {
-        color: $red;
-    }
+  // font-family: 'Proxima Nova Regular', sans-serif;
+  // font-family: 'Proxima Nova Semibold', sans-serif;
+  font-family: "Proxima Nova Bold", sans-serif;
+  .top-header {
+    margin-top: 20px;
+  }
+  .top-header__worktime {
+    text-align: center;
+  }
+  .top-header__worktime_headline {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .top-header__worktime_hours {
+    font-size: 1em;
+  }
+  .top-header__services {
+    text-align: center;
+  }
+  .top-header__services__headline {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  .top-header__services__phone {
+    font-size: 1.2em;
+  }
+  .top-header__color {
+    color: $red;
+  }
 }
 
 .header-menu {
-    .nav-link {
-        color: $black;
-        font-size: 1.2em;
-    }
-    .nav-link:hover {
-        color: $gray-700;
-    }
-    .adress {
-        font-size: 1.2em;
-    }
+  .nav-link {
+    color: $black;
+    font-size: 1.1em;
+  }
+  .nav-link:hover {
+    color: $gray-700;
+  }
+  .adress {
+    font-size: 1.1em;
+    padding-right: 70px;
+  }
+}
+
+body {
+  background-color: black;
 }
