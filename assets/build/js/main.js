@@ -18240,6 +18240,7 @@ owl.owlCarousel({
     margin: 10,
     autoplay: true,
     autoplayTimeout: 5000,
+    animateOut: 'fadeOut',
     autoplayHoverPause: true,
     nav: true,
 });
