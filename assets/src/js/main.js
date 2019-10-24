@@ -21,4 +21,5 @@
 //= ../../../node_modules/bootstrap/js/dist/toast.js
 
 // Импортируем другие js-файлы
+//= ../../../node_modules/@fortawesome/fontawesome-free/js/all.min.js
 //= my.js

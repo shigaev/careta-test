@@ -1,0 +1,68 @@
+.slider {
+  position: relative;
+}
+.slider-nav-container {
+  position: relative;
+}
+.slider-nav {
+  position: absolute;
+  z-index: 99;
+  font-size: 3em;
+  cursor: pointer;
+  width: 100%;
+  top: 220px;
+}
+.slider-nav .next {
+  right: 0;
+}
+.slider-nav .slider-nav__switch {
+  color: red;
+  transition: 0.7s;
+  position: absolute;
+}
+.owl-carousel {
+  position: relative;
+}
+.owl-carousel img {
+  width: 100%;
+}
+.item {
+  // z-index: 1000;
+  // padding: 10px;
+  top: 10%;
+  left: 5%;
+  max-width: 550px;
+  // font-size: 35px;
+  // font-weight: 700;
+  position: absolute;
+  color: white;
+  font-family: "Proxima Nova Bold", sans-serif;
+  text-shadow: 0 1px 2px black;
+}
+.item h2 {
+  padding: 0;
+  margin: 0 0 5px 0;
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.item p {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button {
+  top: 250%;
+  position: absolute;
+  color: white;
+  background-color: red;
+  padding: 15px 75px;
+  border-radius: 50px;
+  text-shadow: none;
+  transition: 0.5s;
+}
+.button:hover {
+  box-shadow: 0 0 15px red;
+  text-decoration: none;
+  color: white;
+}

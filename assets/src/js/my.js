@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     $('.owl-carousel').owlCarousel();
 });
 
@@ -8,14 +8,25 @@ owl.owlCarousel({
     loop: true,
     margin: 10,
     autoplay: true,
-    autoplayTimeout: 5000,
+    // autoplayTimeout: 3000,
     animateOut: 'fadeOut',
+    // animateOut: 'slideOutDown',
+    animateIn: 'flipInX',
     autoplayHoverPause: true,
-    nav: true,
 });
-$('.play').on('click', function() {
+$('.play').on('click', function () {
     owl.trigger('play.owl.autoplay', [1000])
 })
-$('.stop').on('click', function() {
+$('.stop').on('click', function () {
     owl.trigger('stop.owl.autoplay')
+})
+
+$('.next').click(function () {
+    owl.trigger('next.owl.carousel');
+})
+// Go to the previous item
+$('.prev').click(function () {
+    // With optional speed parameter
+    // Parameters has to be in square bracket '[]'
+    owl.trigger('prev.owl.carousel', [300]);
 })
